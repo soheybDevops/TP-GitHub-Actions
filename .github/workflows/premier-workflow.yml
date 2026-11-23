@@ -8,8 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message
-        run: echo "Bonjour! Mon premier GitHub Actions fonctionne."
-      - name: Afficher la date
-        run: date
+        run: echo "Bienvenue dans le cours DevOps"
+      - name: Nom du projet
+        run: echo "Projet TP DevOps"
+      - name: Afficher mon nom et la date
+        run: |
+          echo "Nom: soheyb diaf"
+          date
       - name: Afficher le système
         run: uname -a
